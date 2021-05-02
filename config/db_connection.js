@@ -1,4 +1,4 @@
-import mongoose from "mongoose";
+const mongoose = require("mongoose");
 
 // declaring the function that we will use inside server.js
 const db_connection = () => {
@@ -20,4 +20,4 @@ const db_connection = () => {
   );
 };
 
-export default db_connection;
+module.exports = db_connection;
