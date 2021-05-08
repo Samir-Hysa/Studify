@@ -1,19 +1,8 @@
-import React from "react";
+import { makeStyles } from "@material-ui/core";
 
-function Register() {
-  return (
-    <div>
-      <h1>Register</h1>
-      <h1>Register</h1>
-      <h1>Register</h1>
-      <h1>Register</h1>
-      <h1>Register</h1>
-      <h1>Register</h1>
-      <h1>Register</h1>
-      <h1>Register</h1>
-      <h1>Register</h1>
-    </div>
-  );
+const useStyles = makeStyles((theme) => ({}));
+
+export default function example() {
+  const classes = useStyles();
+  return <div className={}></div>;
 }
-
-export default Register;
