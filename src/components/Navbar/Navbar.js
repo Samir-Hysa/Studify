@@ -1,4 +1,4 @@
-import { AppBar, IconButton, Toolbar, Button } from "@material-ui/core";
+import { AppBar, Toolbar, Button } from "@material-ui/core";
 import NavbarStyles from "./NavbarStyles";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
