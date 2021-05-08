@@ -1,6 +1,7 @@
 import { makeStyles } from "@material-ui/core";
 
 const NavbarStyles = makeStyles((theme) => ({
+  root: {},
   appbar: {
     backgroundColor: "#656af7",
   },
