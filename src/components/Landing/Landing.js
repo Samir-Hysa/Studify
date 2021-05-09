@@ -24,7 +24,17 @@ export default function Landing() {
   return (
     <Grid container component="main" className={classes.root}>
       <CssBaseline />
-      <Grid item xs={false} sm={4} md={7} className={classes.a} />
+      <Grid item xs={false} sm={4} md={7} className={classes.a}>
+        <div className="video">
+          <video
+            onClick={handleVideoClick}
+            className={classes.video__player}
+            loop
+            ref={videoRef}
+            src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+          ></video>
+        </div>
+      </Grid>
       <Grid item xs={12} sm={8} md={5} className={classes.b} />
     </Grid>
   );

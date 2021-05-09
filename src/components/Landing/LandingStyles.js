@@ -8,6 +8,11 @@ const LandingStyle = makeStyles((theme) => ({
     display: "flex",
     flexDirection: "column",
   },
+  video__player: {
+    // objectFit: "fill",
+    width: "100%",
+    height: "100%",
+  },
   a: {
     backgroundColor: "black",
   },
