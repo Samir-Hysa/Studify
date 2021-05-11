@@ -3,7 +3,9 @@ import { makeStyles } from "@material-ui/core";
 const NavbarStyles = makeStyles((theme) => ({
   root: {},
   appbar: {
-    backgroundColor: "none",
+    height: "5vh",
+    backgroundColor: "transparent",
+    boxShadow: "none",
   },
   appbar__toolbar: {
     width: "95%",
@@ -16,20 +18,20 @@ const NavbarStyles = makeStyles((theme) => ({
   logo: {
     flexGrow: "1",
     fontSize: "3rem",
+    color: "black",
   },
   button__register: {
-    color: "#fff",
+    color: "black",
     fontSize: "1.2rem",
     margin: "auto 0.4rem",
-    borderRadius: "50rem",
-    borderColor: "#fff",
+    borderRadius: "0.5rem",
   },
   button__login: {
-    color: "#656af7",
+    color: "black",
     backgroundColor: "white",
     margin: "auto 0.4rem",
     fontSize: "1.2rem",
-    borderRadius: "50rem",
+    borderRadius: "0.5rem",
   },
 }));
 

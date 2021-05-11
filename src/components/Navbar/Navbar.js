@@ -9,14 +9,14 @@ export default function Navbar(props) {
     <div className={classes.root}>
       <AppBar className={classes.appbar} elevation={0} position="static">
         <Toolbar className={classes.appbar__toolbar}>
-          <h1 className={classes.logo}>Studify</h1>
+          <h2 className={classes.logo}>Studify</h2>
           <Link to="/register" className="text__link">
             <Button className={classes.button__register} variant="outlined">
               Sign Up
             </Button>
           </Link>
           <Link to="/login" className="text__link">
-            <Button className={classes.button__login} variant="contained">
+            <Button className={classes.button__login} variant="outlined">
               Sign In
             </Button>
           </Link>

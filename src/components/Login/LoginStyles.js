@@ -5,13 +5,13 @@ const LoginStyles = makeStyles((theme) => ({
     height: "100vh",
   },
   image: {
-    backgroundImage: `url(${process.env.PUBLIC_URL + "/assets/mainbg.jpg"})`,
+    marginTop: "10rem",
+    backgroundImage: `url(${
+      process.env.PUBLIC_URL + "/assets/illustration/10SCENE.svg"
+    })`,
     backgroundRepeat: "no-repeat",
-    backgroundColor:
-      theme.palette.type === "light"
-        ? theme.palette.grey[50]
-        : theme.palette.grey[900],
-    backgroundSize: "cover",
+    width: "70%",
+    height: "70%",
     backgroundPosition: "center",
   },
   paper: {
