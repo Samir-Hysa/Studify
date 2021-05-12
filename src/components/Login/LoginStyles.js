@@ -10,8 +10,8 @@ const LoginStyles = makeStyles((theme) => ({
       process.env.PUBLIC_URL + "/assets/illustration/10SCENE.svg"
     })`,
     backgroundRepeat: "no-repeat",
-    width: "70%",
-    height: "70%",
+    width: "50%",
+    height: "50%",
     backgroundPosition: "center",
   },
   paper: {

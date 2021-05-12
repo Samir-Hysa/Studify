@@ -14,6 +14,7 @@ import Typography from "@material-ui/core/Typography";
 import "./Login.css";
 import LoginStyles from "./LoginStyles";
 
+//function that create the little copyright text under the login
 function Copyright() {
   return (
     <Typography variant="body2" color="textSecondary" align="center">
@@ -32,7 +33,14 @@ export default function Login() {
   return (
     <Grid container component="main" className={classes.root}>
       <CssBaseline />
-      <Grid item xs={false} sm={4} md={7} className={classes.image} />
+      <Box
+        item
+        xs={false}
+        md={7}
+        component={Grid}
+        className={classes.image}
+        display={{ xs: "none", sm: "none", md: "block" }}
+      />
       <Grid item xs={12} sm={8} md={5} component={Paper} elevation={6}>
         <div className={classes.paper}>
           <Avatar className={classes.avatar}>
@@ -43,6 +51,7 @@ export default function Login() {
           </Typography>
           <form className={classes.form} noValidate>
             <TextField
+              // onChange={this.onChange}
               variant="outlined"
               margin="normal"
               required

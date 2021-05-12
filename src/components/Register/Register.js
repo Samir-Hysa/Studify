@@ -27,7 +27,7 @@ function Copyright() {
   );
 }
 
-export default function example() {
+export default function Login() {
   const classes = RegisterStyles();
   return (
     <Grid container component="main" className={classes.root}>
