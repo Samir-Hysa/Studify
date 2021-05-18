@@ -1,0 +1,22 @@
+{
+  "name": "Studify",
+  "version": "1.0.0",
+  "description": "user-api ",
+  "main": "server.js",
+  "repository": "https://github.com/Samir-Hysa/Studify.git",
+  "author": "samir.hysa <samir.hysa.work@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "NODE_ENV=production node server",
+    "dev": "nodemon server"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.9",
+    "morgan": "^1.10.0"
+  }
+}
