@@ -1,0 +1,1 @@
+Remember to Add the hidden function to signin/signup pages to make them responsive for ipad like resolution
